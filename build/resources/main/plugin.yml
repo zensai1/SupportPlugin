@@ -1,0 +1,5 @@
+name: SupportPlugin
+version: '1.0-SNAPSHOT'
+main: io.github.zensai1.supportPlugin.SupportPlugin
+api-version: '1.21.10'
+
