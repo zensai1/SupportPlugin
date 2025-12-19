@@ -3,3 +3,9 @@ version: '1.0-SNAPSHOT'
 main: io.github.zensai1.supportPlugin.SupportPlugin
 api-version: '1.21.10'
 
+
+commands:
+  jinrorpg:
+    aliases: jr
+    description: "JinroRPG"
+    usage: /<command> start <number>

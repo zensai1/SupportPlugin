@@ -17,6 +17,7 @@ import org.java_websocket.handshake.ServerHandshake;
 import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public final class SupportPlugin extends JavaPlugin implements Listener {
@@ -30,6 +31,7 @@ public final class SupportPlugin extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         getLogger().info("SupportPlugin enabled");
+        Objects.requireNonNull(getCommand("jinrorpg")).setExecutor(new GMCommand());
 
         // WebSocket接続
         try {

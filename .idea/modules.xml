@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/SupportPlugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/SupportPlugin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/io.github.zensai1.SupportPlugin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/io.github.zensai1.SupportPlugin.main.iml" />
     </modules>
   </component>
 </project>
