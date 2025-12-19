@@ -9,3 +9,7 @@ commands:
     aliases: jr
     description: "JinroRPG"
     usage: /<command> start <number>
+
+
+  nickname:
+    usage: /<command> <name>

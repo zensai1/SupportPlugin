@@ -32,6 +32,8 @@ public final class SupportPlugin extends JavaPlugin implements Listener {
     public void onEnable() {
         getLogger().info("SupportPlugin enabled");
         Objects.requireNonNull(getCommand("jinrorpg")).setExecutor(new GMCommand());
+        Objects.requireNonNull(getCommand("nickname")).setExecutor(new Nickname());
+
 
         // WebSocket接続
         try {

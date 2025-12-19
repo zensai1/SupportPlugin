@@ -1,183 +1,109 @@
-[10:02:42] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9-FR; Amazon.com Inc. Corretto-22.0.2.9.1) on Windows 11 10.0 (amd64)
-[10:02:42] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-127-ver/1.21.10@92ee2c2 (2025-12-17T21:38:17Z) for Minecraft 1.21.10
-[10:02:43] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[10:02:44] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'C:\Users\zenns\Desktop\pl\SupportPlugin\build\libs\SupportPlugin-1.0-SNAPSHOT.jar'...
-[10:02:44] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'C:\Users\zenns\Desktop\pl\SupportPlugin\build\libs\SupportPlugin-1.0-SNAPSHOT.jar' in 546ms.
-[10:02:44] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
-[10:02:44] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
+[11:42:17] [ServerMain/INFO]: [bootstrap] Running Java 22 (OpenJDK 64-Bit Server VM 22.0.2+9-FR; Amazon.com Inc. Corretto-22.0.2.9.1) on Windows 11 10.0 (amd64)
+[11:42:17] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.10-127-ver/1.21.10@92ee2c2 (2025-12-17T21:38:17Z) for Minecraft 1.21.10
+[11:42:20] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[11:42:21] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'C:\Users\zenns\Desktop\pl\SupportPlugin\build\libs\SupportPlugin-1.0-SNAPSHOT.jar'...
+[11:42:22] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'C:\Users\zenns\Desktop\pl\SupportPlugin\build\libs\SupportPlugin-1.0-SNAPSHOT.jar' in 954ms.
+[11:42:22] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[11:42:22] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (2):
  - ProtocolLib (5.4.0), SupportPlugin (1.0-SNAPSHOT)
-[10:02:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
-[10:02:52] [ServerMain/INFO]: Loaded 1461 recipes
-[10:02:52] [ServerMain/INFO]: Loaded 1574 advancements
-[10:02:52] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[10:02:53] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 353.5ms
-[10:02:53] [Server thread/INFO]: Starting minecraft server version 1.21.10
-[10:02:53] [Server thread/INFO]: Loading properties
-[10:02:53] [Server thread/INFO]: This server is running Paper version 1.21.10-127-ver/1.21.10@92ee2c2 (2025-12-17T21:38:17Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
-[10:02:53] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[10:02:53] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:02:53] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:02:54] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
-[10:02:54] [Server thread/INFO]: Default game type: SURVIVAL
-[10:02:54] [Server thread/INFO]: Generating keypair
-[10:02:54] [Server thread/INFO]: Starting Minecraft server on *:25565
-[10:02:54] [Server thread/INFO]: Using default channel type
-[10:02:54] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[10:02:54] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[10:02:54] [Server thread/INFO]: [SupportPlugin] Loading server plugin SupportPlugin v1.0-SNAPSHOT
-[10:02:54] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
-[10:02:54] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.10) has not yet been tested! Proceed with caution.
-[10:02:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:02:55] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
-[10:02:55] [Server thread/INFO]: Preparing level "world"
-[10:02:56] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
-[10:02:56] [Server thread/INFO]: Preparing spawn area: 100%
-[10:02:56] [Server thread/INFO]: Prepared spawn area in 2 ms
-[10:02:56] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
-[10:02:56] [Server thread/INFO]: Preparing spawn area: 100%
-[10:02:56] [Server thread/INFO]: Prepared spawn area in 1 ms
-[10:02:56] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
-[10:02:56] [Server thread/INFO]: Prepared spawn area in 1 ms
-[10:02:56] [Server thread/INFO]: Done preparing level "world" (0.783s)
-[10:02:56] [Server thread/INFO]: [SupportPlugin] Enabling SupportPlugin v1.0-SNAPSHOT
-[10:02:56] [Server thread/INFO]: [SupportPlugin] SupportPlugin enabled
-[10:02:56] [WebSocketConnectReadThread-83/WARN]: [SupportPlugin] WebSocket error: Connection refused: connect
-[10:02:56] [WebSocketConnectReadThread-83/WARN]: [SupportPlugin] WebSocket closed: Connection refused: connect
-[10:02:56] [Server thread/INFO]: [spark] Starting background profiler...
-[10:02:56] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[10:02:56] [Server thread/INFO]: Running delayed init tasks
-[10:02:56] [Server thread/INFO]: Done (16.232s)! For help, type "help"
-[10:07:04] [Server thread/ERROR]: Got an error with a html body connecting to https://api.mojang.com/minecraft/profile/lookup/name/zensai6464: <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
-<html xmlns='http://www.w3.org/1999/xhtml'>
-
-<head>
-    <meta content='text/html; charset=utf-8' http-equiv='content-type' />
-    <style type='text/css'>
-        body {
-            font-family: Arial;
-            margin-left: 40px;
-        }
-
-        img {
-            border: 0 none;
-        }
-
-        #content {
-            margin-left: auto;
-            margin-right: auto
-        }
-
-        #message h1 {
-            font-size: 24px;
-            font-weight: normal;
-            color: #000000;
-            margin: 34px 0px 0px 0px
-        }
-
-        #message h2 {
-            font-size: 20px;
-            font-weight: normal;
-            color: #000000;
-            margin: 34px 0px 0px 0px
-        }
-
-        #message p {
-            font-size: 16px;
-            color: #000000;
-            margin: 8px 0px 0px 0px
-        }
-
-        #message hr {
-            margin: 15px 0px
-        }
-
-        #errorref {
-            font-size: 11px;
-            color: #737373;
-            margin-top: 41px
-        }
-    </style>
-    <title>Service unavailable</title>
-</head>
-
-<body>
-    <div id='content'>
-        <div id='message'>
-            <h2>The request is blocked.</h2>
-        </div>
-        <div id='errorref'>
-            <span>20251219T010705Z-159b47b56b6th2slhC1SG1dg4c00000002r0000000002kpc            </span>
-        </div>
-    </div>
-</body>
-</html>
-
-[10:07:05] [Server thread/WARN]: Couldn't find profile with name: zensai6464
-com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 429
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:56) ~[authlib-7.0.61.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilGameProfileRepository.findProfileByName(YggdrasilGameProfileRepository.java:117) ~[paper-1.21.10.jar:?]
-	at com.destroystokyo.paper.profile.PaperGameProfileRepository.findProfileByName(PaperGameProfileRepository.java:49) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.server.players.CachedUserNameToIdResolver.lookupGameProfile(CachedUserNameToIdResolver.java:74) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.server.players.CachedUserNameToIdResolver.get(CachedUserNameToIdResolver.java:144) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.commands.arguments.GameProfileArgument.lambda$parse$0(GameProfileArgument.java:65) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.commands.arguments.GameProfileArgument.getGameProfiles(GameProfileArgument.java:30) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.server.commands.OpCommand.lambda$register$3(OpCommand.java:36) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:458) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:364) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:352) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.commands.Commands.performPrefixedCommand(Commands.java:343) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:597) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.server.dedicated.DedicatedServer.tickConnection(DedicatedServer.java:553) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1821) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1618) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.server.dedicated.DedicatedServer.tickServer(DedicatedServer.java:430) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1338) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:384) ~[paper-1.21.10.jar:1.21.10-127-92ee2c2]
-	at java.base/java.lang.Thread.run(Thread.java:1570) ~[?:?]
-[10:07:05] [Server thread/INFO]: That player does not exist
-[10:07:30] [Server thread/INFO]: Incorrect argument for command
-...ensai__op zensai__<--[HERE]
-[10:07:43] [Server thread/INFO]: Nothing changed. The player already is an operator
-[10:09:01] [Server thread/INFO]: Stopping the server
-[10:09:01] [Server thread/INFO]: Stopping server
-[10:09:01] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
-[10:09:01] [Server thread/INFO]: [SupportPlugin] Disabling SupportPlugin v1.0-SNAPSHOT
-[10:09:01] [Server thread/INFO]: [SupportPlugin] SupportPlugin disabled
-[10:09:01] [Server thread/INFO]: Saving players
-[10:09:02] [Server thread/INFO]: Saving worlds
-[10:09:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0.02s
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[10:09:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[10:09:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[10:09:02] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[10:09:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[10:09:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[10:09:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[10:09:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[10:09:02] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[10:09:02] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[10:09:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[10:09:02] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[11:42:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[11:42:38] [ServerMain/INFO]: Loaded 1461 recipes
+[11:42:38] [ServerMain/INFO]: Loaded 1574 advancements
+[11:42:38] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[11:42:39] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 734.3ms
+[11:42:39] [Server thread/INFO]: Starting minecraft server version 1.21.10
+[11:42:39] [Server thread/INFO]: Loading properties
+[11:42:40] [Server thread/INFO]: This server is running Paper version 1.21.10-127-ver/1.21.10@92ee2c2 (2025-12-17T21:38:17Z) (Implementing API version 1.21.10-R0.1-SNAPSHOT)
+[11:42:40] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[11:42:40] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[11:42:40] [Server thread/INFO]: Using 4 threads for Netty based IO
+[11:42:41] [Server thread/INFO]: [MoonriseCommon] Paper is using 4 worker threads, 1 I/O threads
+[11:42:42] [Server thread/INFO]: Default game type: SURVIVAL
+[11:42:42] [Server thread/INFO]: Generating keypair
+[11:42:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:42:42] [Server thread/INFO]: Using default channel type
+[11:42:42] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[11:42:42] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[11:42:43] [Server thread/INFO]: [SupportPlugin] Loading server plugin SupportPlugin v1.0-SNAPSHOT
+[11:42:43] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[11:42:43] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.21.10) has not yet been tested! Proceed with caution.
+[11:42:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:42:44] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[11:42:44] [Server thread/INFO]: Preparing level "world"
+[11:42:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[11:42:45] [Server thread/INFO]: Preparing spawn area: 100%
+[11:42:45] [Server thread/INFO]: Prepared spawn area in 5 ms
+[11:42:46] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[11:42:46] [Server thread/INFO]: Prepared spawn area in 2 ms
+[11:42:46] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[11:42:46] [Server thread/INFO]: Prepared spawn area in 2 ms
+[11:42:46] [Server thread/INFO]: Done preparing level "world" (1.495s)
+[11:42:46] [Server thread/INFO]: [SupportPlugin] Enabling SupportPlugin v1.0-SNAPSHOT
+[11:42:46] [Server thread/INFO]: [SupportPlugin] SupportPlugin enabled
+[11:42:46] [WebSocketConnectReadThread-83/WARN]: [SupportPlugin] WebSocket error: Connection refused: connect
+[11:42:46] [WebSocketConnectReadThread-83/WARN]: [SupportPlugin] WebSocket closed: Connection refused: connect
+[11:42:46] [Server thread/INFO]: [spark] Starting background profiler...
+[11:42:46] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[11:42:46] [Server thread/INFO]: Running delayed init tasks
+[11:42:46] [Server thread/INFO]: Done (31.507s)! For help, type "help"
+[11:43:50] [User Authenticator #0/INFO]: UUID of player zensai6464 is cd2d56da-bb59-4b87-822a-dd9078b3062f
+[11:43:51] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [ProtocolLib]
+[11:44:00] [Server thread/INFO]: zensai6464 joined the game
+[11:44:00] [Server thread/INFO]: zensai6464[/127.0.0.1:55614] logged in with entity id 1 at ([world]82.86302430678771, 71.0, 19.70963937553724)
+[11:44:06] [Server thread/INFO]: zensai6464 issued server command: /jr start 1
+[11:44:10] [Server thread/INFO]: zensai6464 issued server command: /tag @s add op
+[11:44:10] [Server thread/INFO]: [zensai6464: Added tag 'op' to zensai6464]
+[11:44:12] [Server thread/INFO]: zensai6464 issued server command: /jr start 1
+[11:44:17] [Server thread/INFO]: zensai6464 issued server command: /jr stop
+[11:44:17] [Server thread/INFO]: [Not Secure] [zensai6464] /jr stop‚ðŽÀs‚µ‚½‚æ
+[11:44:30] [Server thread/INFO]: zensai6464 issued server command: /nickname Bung__
+[11:44:30] [Server thread/INFO]: Modified storage jinro_rpg:
+[11:44:36] [Server thread/INFO]: zensai6464 issued server command: /data get storage jinro_rpg:
+[11:44:50] [Server thread/INFO]: zensai6464 issued server command: /jr start 1
+[11:44:59] [Server thread/INFO]: [@: Set [Auto.Mute] for zensai6464 to 1]
+[11:45:15] [Server thread/INFO]: [zensai6464: Set own game mode to Creative Mode]
+[11:45:43] [Server thread/INFO]: [@: Removed tag 'op' from zensai6464]
+[11:45:46] [Server thread/INFO]: zensai6464 issued server command: /jr start 1
+[11:45:48] [Server thread/INFO]: [@: Added tag 'op' to zensai6464]
+[11:45:49] [Server thread/INFO]: zensai6464 issued server command: /jr start 1
+[11:45:50] [Server thread/INFO]: [@: Removed tag 'op' from zensai6464]
+[11:45:51] [Server thread/INFO]: zensai6464 issued server command: /jr start 1
+[11:45:55] [Server thread/INFO]: zensai6464 issued server command: /stop
+[11:45:55] [Server thread/INFO]: [zensai6464: Stopping the server]
+[11:45:55] [Server thread/INFO]: Stopping server
+[11:45:55] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.4.0
+[11:45:55] [Server thread/INFO]: [SupportPlugin] Disabling SupportPlugin v1.0-SNAPSHOT
+[11:45:55] [Server thread/INFO]: [SupportPlugin] SupportPlugin disabled
+[11:45:55] [Server thread/INFO]: Saving players
+[11:45:56] [Server thread/INFO]: zensai6464 lost connection: Server closed
+[11:45:56] [Server thread/INFO]: zensai6464 left the game
+[11:45:56] [Server thread/INFO]: Saving worlds
+[11:45:56] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:45:56] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[11:45:56] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[11:45:56] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Saved 676 block chunks, 676 entity chunks, 0 poi chunks in world 'world' in 3.02s
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[11:45:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[11:45:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[11:45:59] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[11:45:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:45:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:45:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:45:59] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:45:59] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[11:45:59] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[11:45:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[11:45:59] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
